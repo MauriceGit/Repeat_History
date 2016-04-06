@@ -20,7 +20,7 @@ This appends the appropriate alias to your ~/.bashrc file.
 
 You can alternately add it manually to your ~/.bashrc file (replace $PATH_TO_SCRIPT with the path to repeat_history.sh):
 
-**alias rh='history -a && . $PATH_TO_SCRIPT/repeat_history.sh'"**
+**alias rh='history -a && . $PATH_TO_SCRIPT/repeat_history.sh'**
 
 ## Usage
 

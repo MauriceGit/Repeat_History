@@ -32,6 +32,22 @@ The first argument to **rh** is the search word for the command, you want to exe
 
 The second argument to **rh** changes the number of options to show.
 
+## Screenshots
+
+Some screenshots to see how it looks like.
+
+Call to rh without arguments:
+
+![rh without arguments](https://github.com/MauriceGit/Repeat_History/blob/master/Screenshots/example_1.png "rh without arguments")
+
+Complete example:
+
+![complete example](https://github.com/MauriceGit/Repeat_History/blob/master/Screenshots/example_2.png "complete example")
+
+Example of rh without selection:
+
+![rh invalid input](https://github.com/MauriceGit/Repeat_History/blob/master/Screenshots/example_3.png "rh with no selection")
+
 ## Todo
 
 - Remove duplicates from the list so it is not spammed with the same command.

@@ -10,7 +10,7 @@ It especially helps to get an overview of slightly different commands and makes 
 
 ## Install
 
-Go to the cloned files and execute config.sh. When given no parameters, the script is given the alias **rh** (for: repeat history).
+Go to the cloned files and execute config.sh. When given no parameters, the script is given the system wide alias: **rh** (for: repeat history).
 
 Otherwise you can specify the alias name as first argument to the config.sh script.
 

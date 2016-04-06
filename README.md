@@ -8,7 +8,7 @@ from the list.
 
 It especially helps to get an overview of slightly different commands and makes it easier to select the right one.
 
-# Install
+## Install
 
 Go to the cloned files and execute config.sh. When given no parameters, the script is given the alias **rh** (for: repeat history).
 
@@ -22,7 +22,7 @@ You can alternately add it manually to your ~/.bashrc file (replace $PATH_TO_SCR
 
 **alias rh='history -a && . $PATH_TO_SCRIPT/repeat_history.sh'"**
 
-# Usage
+## Usage
 
 **rh [searchWord] [NumberOfMaxOptions]**
 
@@ -32,7 +32,7 @@ The first argument to **rh** is the search word for the command, you want to exe
 
 The second argument to **rh** changes the number of options to show.
 
-# Todo
+## Todo
 
 - Remove duplicates from the list so it is not spammed with the same command.
 - Add usage and help output.

@@ -14,7 +14,7 @@ OLDIFS=$IFS
 IFS='
 '
 
-output=$(cat $HISTFILE | grep "$searchWord" | grep -v "rh " | tail -n $size)
+output=$(cat $HISTFILE | /bin/grep "$searchWord" | /bin/grep -v "rh " | uniq | tail -n $size)
 
 outputArray=($output)
 
@@ -30,7 +30,7 @@ if [[ ${#outputArray[@]} -gt 0 ]]
 then
     read input
 
-    isNumber=$(echo "$input" | egrep '^[0-9]+$')
+    isNumber=$(echo "$input" | /bin/egrep '^[0-9]+$')
 
     # Check on validity
     if [[ -z "$isNumber" || "$input" -ge $size ]]
@@ -38,10 +38,10 @@ then
         echo "input is not valid."
     else
         command=${outputArray[$input]}
-        # execute command
-        eval $command
         # custom append the executed command to the history
         history -s "$command"
+        # execute command
+        eval $command
     fi
 fi
 
